@@ -3,7 +3,7 @@ from helpers import menu_handler
 
 if __name__ == "__main__":
     menu_handler(
-        "SWAPPIE SMART SCRAPER!\n\nMenu Principale\n\n1 - Trova l'iPhone più economico\n2 - Trova l'iPhone più adatto a te\n3 - Scopri quanto risparmieresti comprando l'iPhone in modo intelligente\n9 - Esci\n\n*** Puoi visualizzare il menu in ogni momento con il comando 'm' ***\n*** Puoi uscire dal programma in qualsiasi momento con ctrl + c (non ti preoccupare se vedi un errore) ***\n",
+        "SWAPPIE SMART SCRAPER!\n\Main menu\n\n1 - Find cheapest iPhone\n2 - Find the best iPhone for you\n3 - Learn to save\n9 - Quit (ctrl + c)\n",
         (
             {"command": "1", "function": find_cheapest_iPhone},
             {"command": "2", "function": find_better_iPhone},

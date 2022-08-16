@@ -14,7 +14,7 @@ def sanitize_iPhone_model_name(model_name):
     return "se-2020" if model_name == "se" else model_name
 
 
-def save_data_to_csv_file(iPhones_list, iPhone_name, context="tutti"):
+def save_data_to_csv_file(iPhones_list, iPhone_name, context="all"):
     if input("Would you like to save search results on a CSV file csv (s/n): "
              )[0].lower() == "s":
         with open(
